@@ -3,11 +3,13 @@ import './App.css';
 import "./assets/styles/main.sass";
 
 import Header from './components/Header';
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <div className="App">
       <Header />
+      <Footer />
     </div>
   );
 }
