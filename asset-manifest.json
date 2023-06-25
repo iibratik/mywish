@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/iibratik.github.io/mywish/static/css/main.3b6f9967.css",
-    "main.js": "/iibratik.github.io/mywish/static/js/main.53fe52d2.js",
-    "static/js/787.4ab35652.chunk.js": "/iibratik.github.io/mywish/static/js/787.4ab35652.chunk.js",
-    "index.html": "/iibratik.github.io/mywish/index.html",
-    "main.3b6f9967.css.map": "/iibratik.github.io/mywish/static/css/main.3b6f9967.css.map",
-    "main.53fe52d2.js.map": "/iibratik.github.io/mywish/static/js/main.53fe52d2.js.map",
-    "787.4ab35652.chunk.js.map": "/iibratik.github.io/mywish/static/js/787.4ab35652.chunk.js.map"
+    "main.css": "/mywish/static/css/main.3b6f9967.css",
+    "main.js": "/mywish/static/js/main.463ce0ca.js",
+    "static/js/787.4ab35652.chunk.js": "/mywish/static/js/787.4ab35652.chunk.js",
+    "index.html": "/mywish/index.html",
+    "main.3b6f9967.css.map": "/mywish/static/css/main.3b6f9967.css.map",
+    "main.463ce0ca.js.map": "/mywish/static/js/main.463ce0ca.js.map",
+    "787.4ab35652.chunk.js.map": "/mywish/static/js/787.4ab35652.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3b6f9967.css",
-    "static/js/main.53fe52d2.js"
+    "static/js/main.463ce0ca.js"
   ]
 }
