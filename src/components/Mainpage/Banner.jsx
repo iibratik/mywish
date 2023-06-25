@@ -1,16 +1,24 @@
 import React from 'react';
 
-const Banner = () => {
+const Banner = (props) => {
+    let bannerAlign = 'banner';
+    if (props.rowRev) {
+        bannerAlign += ' row-reverse';
+    }
     return (
-        <section className='banner'>
-            <div className="banner-left">
-                <h2 className="banner-title">Вы знали, что мощь ваших желаний может воплотиться в реальность?</h2>
-                <div className="banner-btn"></div>
+        <div className="bg">
+            <div className="container">
+                <section  className={bannerAlign}>
+                    <div className="banner-left">
+                        <h2 className="banner-title">{props.text}</h2>
+                        <div className="banner-btn">{props.buttonText}</div>
+                    </div>
+                    <div className="banner-right">
+                        <div className="banner-img"></div>
+                    </div>
+                </section>
             </div>
-            <div className="banner-right">
-                <div className="banner-img"></div>
-            </div>
-        </section>
+        </div>
     );
 };
 
