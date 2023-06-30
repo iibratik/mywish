@@ -6,8 +6,8 @@
 body 
     font-family: Jost
     background: linear-gradient(to right, #509EEB 0%, #D77D98 50%, #D9ACA3 100%)
-    background-position: center
-    background-repeat: no-repeat
+    background-size: 600% 600%
+    animation: bgAnimateLinear 5s infinite linear
 
 a 
     text-decoration: none
@@ -36,3 +36,12 @@ button
 
 .container 
     @include container()
+
+@keyframes bgAnimateLinear
+    0%
+        background-position: 0 85%
+    50%
+        background-position: 100% 20%
+    100%
+        background-position: 0 85%
+        
