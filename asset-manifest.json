@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/mywish/static/css/main.771de237.css",
-    "main.js": "/mywish/static/js/main.0bde881d.js",
+    "main.css": "/mywish/static/css/main.930182df.css",
+    "main.js": "/mywish/static/js/main.fc771eff.js",
     "static/js/787.4ab35652.chunk.js": "/mywish/static/js/787.4ab35652.chunk.js",
     "static/media/Jost-ExtraBold.ttf": "/mywish/static/media/Jost-ExtraBold.5ed7aa2b4bbb5c266355.ttf",
     "static/media/Jost-Medium.ttf": "/mywish/static/media/Jost-Medium.6b59eccdfbb145802814.ttf",
     "static/media/Jost-Bold.ttf": "/mywish/static/media/Jost-Bold.d26e8e629f57716e90a0.ttf",
     "static/media/Jost-Regular.ttf": "/mywish/static/media/Jost-Regular.ca33bfb0214ee2e6936a.ttf",
+    "static/media/bars.svg": "/mywish/static/media/bars.2dd9f34a829cc0448240ef916785b898.svg",
     "index.html": "/mywish/index.html",
-    "main.771de237.css.map": "/mywish/static/css/main.771de237.css.map",
-    "main.0bde881d.js.map": "/mywish/static/js/main.0bde881d.js.map",
+    "main.930182df.css.map": "/mywish/static/css/main.930182df.css.map",
+    "main.fc771eff.js.map": "/mywish/static/js/main.fc771eff.js.map",
     "787.4ab35652.chunk.js.map": "/mywish/static/js/787.4ab35652.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.771de237.css",
-    "static/js/main.0bde881d.js"
+    "static/css/main.930182df.css",
+    "static/js/main.fc771eff.js"
   ]
 }
