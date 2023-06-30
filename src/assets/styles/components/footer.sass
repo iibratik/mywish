@@ -6,6 +6,8 @@
         &__block 
             display: flex
             justify-content: space-between
+            &.isMobile 
+                display: none
         &__right 
             display: flex
     &-menu 
@@ -24,10 +26,14 @@
         &__title 
             color: #FFF
             font-size: 28px
+            text-align: left
             font-weight: 700
         &__link 
             color: rgba(255, 255, 255, 0.70)
             font-size: 20px
+            transition: color 500ms ease
+            &:hover 
+                color: #FFF
     &-bottom
         background: rgba(45, 2, 56, 0.60)
         &__block 
@@ -50,3 +56,6 @@
         left: 0
         background: rgba(40, 40, 40, 0.70)
         z-index: -1
+        opacity: 0.5
+
+

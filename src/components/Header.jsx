@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from '../assets/images/logo.png';
-
+import burgerImg from "../assets/svg/bars.svg"
 const Header = () => {
     const menu = [
         {
@@ -29,7 +29,9 @@ const Header = () => {
             <div className="container">
                 <nav className="navbar">
                     <div className="navbar-logo">
-                        <img src={logo} alt="" className="logo" />
+                        <a href="">
+                            <img src={logo} alt="" className="logo" />
+                        </a>
                     </div>
                     <ul className="navbar-menu">
                         {menu.map(menuObj => (
@@ -38,6 +40,9 @@ const Header = () => {
                             </li>
                         ))}
                     </ul>
+                    <button className="burger-btn">
+                        <img src={burgerImg} alt="" />
+                    </button>
                 </nav>
             </div>
         </header>

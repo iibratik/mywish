@@ -1,5 +1,5 @@
 .header 
-
+    margin-bottom: 55px
 .navbar 
     padding: 33px 0
     display: flex
@@ -16,8 +16,28 @@
             line-height: 24px
             text-align: center
             color: rgba(255, 255, 255, 0.7)
+            transition: all 500ms ease 
+            border: 0px
+            position: relative
+            &:hover 
+                color: #FBFF3C
+                &::before
+                    width: 100%
+            &::before
+                content: ""
+                position: absolute
+                bottom: 0
+                width: 0px
+                height: 1px
+                background: #FBFF3C
+                transition: width 500ms ease 
 
 .main 
     display: flex
     flex-direction: column
     gap: 90px
+
+.burger-btn 
+    width: 25px
+    height: 25px
+    display: none

@@ -26,7 +26,7 @@ const WhyService = () => {
     return (
         <div className="container">
             <section className='services'>
-                <div className="services-title"></div>
+                <div className="services-title">Почему стоит попробовать наш продукт?</div>
                 <div className="services-block">
                     {
                         servicesList.map(item => (

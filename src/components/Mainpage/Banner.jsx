@@ -11,7 +11,7 @@ const Banner = (props) => {
                 <section  className={bannerAlign}>
                     <div className="banner-left">
                         <h2 className="banner-title">{props.text}</h2>
-                        <div className="banner-btn">{props.buttonText}</div>
+                        <a href="/" className="banner-btn">{props.buttonText}</a>
                     </div>
                     <div className="banner-right">
                         <div className="banner-img"></div>
